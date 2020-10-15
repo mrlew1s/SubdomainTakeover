@@ -1,0 +1,3 @@
+exemple.domain1.com
+exemple.domain2.com
+exemome.domain3.com
