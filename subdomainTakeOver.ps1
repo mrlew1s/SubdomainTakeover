@@ -1,5 +1,5 @@
 param(
-#[Parameter(Mandatory=$True,Position=1)]
+[Parameter(Mandatory=$True,Position=1)]
 [string]$subDomainURLORTxtFilePath
 )
 
