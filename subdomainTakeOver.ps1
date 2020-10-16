@@ -4,15 +4,15 @@ param(
 )
 
 <#
-    .Description: 
+    Description: 
         BugBounty tool. This script automate the finding of potential subdomain that could be tookover by looking for a potential alias vulnerability in the subdomain DNS.
 
-    .Entry: 
+    Entry: 
         A specefic subdomain or a .TXT file with a list of subdomain.
       
-    .Output: 
+    Output: 
         A list of all the potential vulnerable subdomain found. 
-    .Command exemple : 
+    Command exemple : 
         .\subdomainTakeOver.ps1 .\subdomains.txt
         .\subdomainTakeOver.ps1 subdomain.exemple.com
     
