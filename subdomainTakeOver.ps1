@@ -7,12 +7,13 @@ param(
     Description: 
         BugBounty tool. This script automate the finding of potential subdomain that could be tookover by looking for a potential alias vulnerability in the subdomain DNS.
 
-    Entry: 
+    Entry(Not mendatory): 
         A specefic subdomain or a .TXT file with a list of subdomain.
       
     Output: 
         A list of all the potential vulnerable subdomain found. 
-    Command exemple : 
+    Command exemple :  
+        .\subdomainTakeOver.ps1
         .\subdomainTakeOver.ps1 .\subdomains.txt
         .\subdomainTakeOver.ps1 subdomain.exemple.com
     
@@ -60,7 +61,7 @@ $RecordsTypes = @("A","AAAA","NS","CNAME","CAA","MX","NS","PRT","SOA","SRV","TXT
 
 
 if ($subDomainURLORTxtFilePath -eq "") {
-    $subDomainURLORTxtFilePath = Read-Host -Prompt 'Add a SubDomain Name OR a TXT File with Subdomains: '
+    $subDomainURLORTxtFilePath = Read-Host -Prompt ' A specefic subdomain or a .TXT file with a list of subdomains: '
 }
 
 
