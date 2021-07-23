@@ -1,6 +1,6 @@
 # Subdomain Takeover Finder
 
-![image](https://i.ibb.co/LxCH0t8/subdomain.png "Subdomain Takeover")
+![image](subdomain.png)
 
 ## Subdomain Takeover? 
 
